@@ -8,7 +8,7 @@ To provides a Go style return for async / await Promises.
 
 ## Usage
 
-```
+```javascript
 const to = require('to');
 
 let err, data;
