@@ -1,6 +1,4 @@
-// utility function that allows us to do:
-// [err, data] = await to(someAsyncAction());
-// if (err) handle(err)
+// utility function that allows for: [err, data] = await to(someAsyncAction());
 function to(promise) {  
   return promise.then(data => {
     return [ null, data ];
